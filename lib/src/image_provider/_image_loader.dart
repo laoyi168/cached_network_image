@@ -38,7 +38,7 @@ class ImageLoader implements platform.ImageLoader {
           'CacheManager needs to be an ImageCacheManager. maxWidth and '
           'maxHeight will be ignored when a normal CacheManager is used.');
       String encryptType='';
-      if(url.endsWith('.t')){
+      if(url.endsWith('.t')||url.endsWith('.tg')){
         encryptType='xjmh';
       }
       if(url.endsWith('.lu')){
