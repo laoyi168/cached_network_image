@@ -5,8 +5,6 @@ import 'package:baseflow_plugin_template/baseflow_plugin_template.dart';
 import 'package:flutter_blurhash/flutter_blurhash.dart';
 
 void main() {
-  CachedNetworkImage.logLevel = CacheManagerLogLevel.debug;
-
   runApp(BaseflowPluginExample(
     pluginName: 'CachedNetworkImage',
     githubURL: 'https://github.com/Baseflow/flutter_cache_manager',
